@@ -20,7 +20,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;   
-    padding: 1em;
+    padding: 1em 2em;
 }
 
 .logo {
@@ -28,12 +28,12 @@ header {
     font-weight: bold;
     text-decoration: none;
     color: black;
-    padding-left: 1em;
 }
 
 .nav ul a {
     text-decoration: underline;
     color: black;
+    padding: 1em;
 }
 
 /* Resume */
