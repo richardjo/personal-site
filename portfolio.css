@@ -15,6 +15,7 @@ body {
     margin-bottom: 1em;
 }
 
+/* Header: logo + nav */
 header {
     display: flex;
     justify-content: space-between;
@@ -35,6 +36,7 @@ header {
     color: black;
 }
 
+/* Resume */
 .resume {
     display: flex;
     flex-direction: column;
@@ -42,7 +44,7 @@ header {
     padding: 1em;
 }
 
-.education, .experience, .projects {
+.education, .experience, .projects, .skills {
     width: 80vh;
     padding-bottom: 2em;
 }
@@ -79,4 +81,17 @@ h3 {
 
 .project-description a {
     color: gray;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill {
+    border: 2px solid rgb(078, 042, 132);
+    padding: 0.3em;
+    margin: 0.5em;
+    border-radius: 13px;
+    font-size: 0.9em;
 }
