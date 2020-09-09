@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.solid {
+    border-top: 1px solid #bbb;
+    margin-bottom: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+    padding: 1em;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    padding-left: 1em;
+}
+
+.nav ul a {
+    text-decoration: underline;
+    color: black;
+}
+
+.resume {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1em;
+}
+
+.education, .experience, .projects {
+    width: 80vh;
+    padding-bottom: 2em;
+}
+
+h3 {
+    margin: 0.2em 0 0.2em 0;
+}
+
+.school-description, .job-description, .project-description {
+    display: flex;
+    justify-content: space-between;
+}
+
+.description-caption {
+    font-weight: normal;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    text-align: right;
+}
+
+.info h3 {
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.project-description a {
+    color: gray;
+}
