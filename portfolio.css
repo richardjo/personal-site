@@ -42,16 +42,39 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0 13em;
+    padding: 0 14em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 830px) {
     .resume {
-        padding: 0 2em;
+        padding: 0 7em;
     } 
 }
 
+@media (max-width: 600px) {
+    .resume {
+        padding: 0 2em;
+    } 
+    .logo {
+        font-size: 1em;
+    }
+    .nav ul a {
+        font-size: 0.9em;
+        padding: 0 0.7em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    h3 {
+        font-size: 0.9em;
+    }
+    p {
+        font-size: 0.9em;
+    }
+}
+
 .education, .experience, .projects, .skills {
+    /* min-width: 60vh; */
     width: 100%;
     padding-bottom: 2em;
 }
