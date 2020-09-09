@@ -59,6 +59,7 @@ header {
 .social-media { 
     display: flex;
     flex-direction: row;
+    justify-content: center;
 }
 
 .social-media img {
