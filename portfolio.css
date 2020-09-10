@@ -87,6 +87,7 @@ h3 {
 }
 
 .project-description a {
+    margin: 0;
     color: gray;
 }
 

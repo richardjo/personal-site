@@ -1,4 +1,5 @@
 /* Blog */
+
 .posts {
     display: flex;
     align-content: space-between;
@@ -24,6 +25,7 @@ h2 {
 }
 
 .post p {
+    padding: 0;
     text-align: start;
 }
 
