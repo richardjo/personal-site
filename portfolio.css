@@ -1,39 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;1,300&display=swap');
-
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
-body {
-    margin: 0;
-    font-family: 'Montserrat', sans-serif;
-}
-
 .solid {
     border-top: 1px solid #bbb;
     margin-bottom: 1em;
-}
-
-/* Header: logo + nav */
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;   
-    padding: 1em 2em;
-}
-
-.logo {
-    font-size: 1.2em;
-    font-weight: bold;
-    text-decoration: none;
-    color: black;
-}
-
-.nav ul a {
-    text-decoration: underline;
-    color: black;
-    padding: 1em;
 }
 
 /* Resume */
@@ -43,6 +10,10 @@ header {
     flex-direction: column;
     align-items: center;
     padding: 0 19em;
+}
+
+.resume a {
+    margin: 0 0 3em 0;
 }
 
 @media (max-width: 1000px) {
